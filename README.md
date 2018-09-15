@@ -3,7 +3,7 @@ Tools for NGS analysis
 
 # VCF parser program
 
-This is variant annotation tool, to output a table annotating each variant in VCF format file. 
+This is a variant annotation tool, to output a table annotating each variant in VCF format file. 
 
 Each variant is annotated with the following pieces of information:
   1. Type of variation (Substitution, Insertion, Silent, Intergenic, etc.):
