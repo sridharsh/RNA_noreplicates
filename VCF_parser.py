@@ -136,9 +136,7 @@ for record in vcf_reader:
                                              str(round(float(("".join(str(record.INFO["AF"]))).strip("[]")), 2)) + "\t" +
                                              str(other) + "\n")
             else:
-                print(record.var_type)
+                print(record.var_type) # To check if there are any other values
 
 f.close()
-print("Done")
-
 
