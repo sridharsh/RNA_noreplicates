@@ -19,7 +19,6 @@ Each variant is annotated with the following pieces of information:
 # ChIP overlaps program
 
 This program compares ChIPseq samples of different cell types and identifies overlaps between the MAnorm results or Island lists.
-
-Input: Island list or MAnorm result 
-Output: VennDiagram showing the overlapping peaks in the conditions
-Note: The program uses euler package to plot the venndiagram, therefore, changes should be made if the user needs to compare >2 conditions or cell types.
+  1. Input: Island list or MAnorm result 
+  2. Output: VennDiagram showing the overlapping peaks in the conditions
+  3. Note: The program uses euler package to plot the venndiagram, therefore, changes should be made if the user needs to compare  >2 conditions or cell types.
