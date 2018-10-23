@@ -15,3 +15,11 @@ Each variant is annotated with the following pieces of information:
 
      (API documentation is available here: http://exac.hms.harvard.edu/)
   6. Additional optional information from ExAC that you feel might be relevant.
+
+# ChIP overlaps program
+
+This program compares ChIPseq samples of different cell types and identifies overlaps between the MAnorm results or Island lists.
+
+Input: Island list or MAnorm result 
+Output: VennDiagram showing the overlapping peaks in the conditions
+Note: The program uses euler package to plot the venndiagram, therefore, changes should be made if the user needs to compare >2 conditions or cell types.
