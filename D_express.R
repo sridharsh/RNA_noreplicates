@@ -23,10 +23,10 @@ heat_mapping <- function(dds){
            cluster_cols=FALSE, annotation_col=df, filename = "heatmap_deseq.pdf", fontsize = 6)
 }
 
-
 #df <- read.table(args[1], header=TRUE)
 setwd("/out_dir")
 df <- read.table("./featureCounts/cleaned_counts.csv", 
                  sep = ",", header = TRUE, row.names="GeneID")
 condition <- factor(c("Sensitive", "Resistant", "Resistant", "Resistant"))
 heat_mapping(D_express(df, condition))
+
