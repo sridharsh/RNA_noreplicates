@@ -1,6 +1,7 @@
 import sys
 
 
+#run combine_pathway.R before running this python script
 def foldchange(gsea_preranked_list = "DEgenes.csv"):
 
     FC_dict = {}
